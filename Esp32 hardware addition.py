@@ -813,5 +813,5 @@ if __name__ == '__main__':
     threading.Thread(target=esp32_communication).start()
     threading.Thread(target=send_data_to_esp32).start()
     threading.Thread(target=capture_image).start()
-    serve(app, host='0.0.0.0', port=5000)
+    serve(app, host='127.0.0.1', port=5000)
 
