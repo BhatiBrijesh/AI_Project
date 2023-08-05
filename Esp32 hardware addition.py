@@ -17,7 +17,7 @@ latest_processed_image = None
 product_count = 0
 lock = threading.Lock()
 event = threading.Event()
-esp32_ip = "192.168.192.217"  # Replace with your ESP32 IP address
+esp32_ip = "192.168.0.147"  # Replace with your ESP32 IP address
 
 
 
